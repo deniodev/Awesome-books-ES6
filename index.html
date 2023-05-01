@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,51 @@
     <title>Awesome Books</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
- 
-    
-<script type="module" src="./index.js"></script>    
+    <header>
+        <nav>
+            <h1>Awesome Books</h1>
+            <ul>
+                <li class="list"><a href="#all-books" class="list-nav">List</a></li>
+                <li class="form-inputs"><a href="#add-new-books">Add new</a></li>
+                <li class="contact"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <p id="date"></p>
+        <section id="all-books">
+            <p class="book-intro">All Awesome books</p>
+            <div id="book-list" class="book-list"></div>
+            <hr>
+        </section>
+        <section id="add-new-books">
+            <p class="add-new-book">Add a new Book</p>
+            <form action="" id="book-form">
+                <input type="text" placeholder="Title" id="name-of-book" class="title">
+                <input type="text" placeholder="Author" id="author-of-book" class="author"></p>
+                <input type="submit" value="Add" class="add-book-button">
+            </form>
+        </section>
+        <section id="contact">
+            <h1>Contact information</h1>
+            <p class="contact-text">Do you have any question or you want to say "Hello"</p>
+            <p class="contact-text">You can reach out to us!</p>
+            <ul class="contact-list">
+                <li>Email : dnhanale@gmail </li>
+                <li>Phone Number: +258848022332 </li>
+                <li>Address : Beira, Mozambique</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>@Copyright Denio Nhanale Ltd</p>
+    </footer>
+
+    <script type="module" src="./index.js"></script>
 </body>
+
 </html>

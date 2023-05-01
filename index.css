@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: cursive;
+  position: relative;
+  height: 90vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3em;
+  margin-right: 0.8rem;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  border: 1px solid black;
+  margin: 5% auto 0 auto;
+  padding: 1% 4% 1% 4%;
+}
+
+nav > ul {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+}
+
+.list {
+  border-right: 1px solid black;
+
+  /* padding-right:8%; */
+}
+
+.form-inputs {
+  border-right: 1px solid black;
+
+  /* padding-right:20%; */
+}
+
+h1 {
+  color: black;
+  font-size: 2em;
+}
+
+#all-books,
+#contact,
+#add-new-books {
+  padding-top: 8%;
+}
+
+.book-intro,
+.add-new-book {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 60%;
+  margin: auto;
+}
+
+.my-book {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+
+.my-book:nth-child(even) {
+  background-color: #e2dfdf;
+}
+
+div.book-name-and-author {
+  display: flex;
+  gap: 5px;
+  margin-left: 5%;
+}
+
+.remove-book-button {
+  margin-right: 5%;
+  width: 8%;
+  border-style: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px #131212;
+}
+
+hr {
+  width: 30%;
+  margin: 1% auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  gap: 10px;
+  margin: 2% auto 0 auto;
+}
+
+.title,
+.author {
+  width: 95%;
+  padding: 2%;
+}
+
+.add-book-button {
+  align-self: flex-end;
+  margin-right: 5%;
+  width: 12%;
+  border-style: none;
+  border: 1px solid black;
+  box-shadow: 2px 2px #131212;
+  padding: 1%;
+}
+
+.add-book-button:hover,
+.remove-book-button:hover {
+  background: white;
+}
+
+#contact {
+  width: 40%;
+  margin: auto;
+}
+
+#date {
+  float: right;
+  margin: 3% 8% 0 0;
+  font-weight: 700;
+}
+
+#contact > h1 {
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 1.2em;
+}
+
+.contact-list {
+  padding-left: 15%;
+}
+
+#add-new-books.active {
+  display: none;
+}
+
+#all-books.active {
+  display: none;
+}
+
+#contact.active {
+  display: none;
+}
+
+footer {
+  width: 90%;
+  margin: auto;
+  border: 1px solid black;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  right: 5%;
+}

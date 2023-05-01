@@ -63,7 +63,7 @@ After you're finished please remove all the comments and instructions!
 
 **[Awesome Books]** is a project that stores the book dynamically and view books stored in localStorage in browser on UI using Javascript modules.
 
-## 🛠 Built With <a name="built-with">HTML&Javascript</a>
+## 🛠 Built With <a name="built-with">HTML, CSS & Javascript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -86,6 +86,7 @@ After you're finished please remove all the comments and instructions!
 - **[Display books on UI]**
 - **[Store books in LocalStorage]**
 - **[Remove books on UI and LocalStorage]**
+- **[Use ES6 Modules]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
