@@ -96,7 +96,7 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- [Live Demo Link](https://deniodev.github.io/awesome-books/)
+- [Live Demo Link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
